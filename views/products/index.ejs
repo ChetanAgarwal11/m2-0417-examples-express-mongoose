@@ -1,0 +1,8 @@
+<ul>
+  <% products.forEach((product) => { %>
+    <li>
+      <%= product.name %> - $<%= product.price %>
+      <img src="<%= product.imageUrl %>" width=200/>
+    </li>
+  <%  }) %>
+</ul>
